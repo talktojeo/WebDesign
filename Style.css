@@ -1,0 +1,180 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    width: 100%;
+    background-color: rgba(235, 220, 220, 0.5);
+    padding: 20px;
+    position: absolute;
+    top: 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+header a {
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    
+    }
+
+
+
+.banner-container{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#322232,rgba(14, 14, 160, 0.562),rgba(3,96,133,0.1));
+    display:flex;
+}
+
+.banner-container .left-section h1{
+    margin: 0;
+}
+
+.banner-container .container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    
+}
+/* Left section */
+
+.left-section {
+    width: 600px;
+}
+.left-section h1{
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+
+.left-section p {
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color:rgba(253, 253,253, 1);
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+
+.left-section button{
+    color: rgb(78,78,78);
+    background-color: white;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+/* Left Section END - short cut Ctrl +  */
+
+.right-section {
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 0;
+    box-shadow: 0 5px 6px rgba(0,0,0,.20);
+
+}
+
+.right-section h4 {
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+.input-group
+{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group input {
+    border: none;
+    padding: 7px;
+    margin-top: 5px;
+    outline: none;
+    border-bottom: 1px solid #aaa4a4ea;
+}
+
+.submit-section {
+    text-align: center;
+}
+
+.submit-button {
+    border:none;
+    padding:10px 0;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.section-two{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+}
+
+.card-container {
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 26px rgb(136, 133, 133);
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-container {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(1.1) rotate(-5deg)
+}
+/* Section 2 End */
+
+/* Footer */
+
+footer
+{
+    text-align: center;
+    color: grey;
+    padding: 15px;
+}
+
+footer span{
+    color: red;
+    font-weight: bold;
+}
