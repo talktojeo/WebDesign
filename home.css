@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    position: absolute;
+    width: 100%;
+    top: 15px;
+    text-align: right;
+
+
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 32px;
+    margin-right: 100px;
+    transition: 0.5s;
+
+
+}
+
+main{
+    background-image:url(./Images/Tree.jpg);
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+  
+}
+
+.centertxt{
+    mix-blend-mode: overlay;
+    font-size: 52px;
+    font-weight: 900;
+}
+footer{
+    text-align: center;
+}
+
